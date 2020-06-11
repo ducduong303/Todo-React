@@ -101,7 +101,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div className="App-title"><h1>TODO-List</h1></div>
+                <div className="App-title"><h1>TODO-Lists</h1></div>
                 <div className="App">
                     <div className="header">
                         <img src={tick} className="header-img" alt="****" />
