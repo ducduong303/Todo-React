@@ -1,0 +1,35 @@
+.TodoItem{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+    font-weight: 300;
+    display: flex;
+    border-bottom: 1px solid #eee;
+    padding-left: 20px;
+}
+.TodoItem:hover .Todo-close{
+    opacity: 1;
+    visibility: visible;
+}
+.TodoItem p{
+    margin: 0;
+    padding: 20px 10px;
+    width: 100%;
+
+}
+.Todo-img{
+    width: 35px;
+    cursor: pointer;
+}
+.Todo-close{
+    width: 15px;
+    cursor: pointer;
+    margin-right: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.TodoItem-Complete{
+    text-decoration: line-through;
+    opacity: .5;
+}
